@@ -1,0 +1,21 @@
+{
+    "name": "slides",
+    "version": "1.0.0",
+    "description": "slides for javascript",
+    "main": "src/index.js",
+    "scripts": {
+        "serve": "node scripts/serve.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://ari-web.xyz/gh/slides.js"
+    },
+    "keywords": [
+        "slides"
+    ],
+    "author": "Ari Archer <ari.web.xyz@gmail.com>",
+    "license": "GPLv3",
+    "devDependencies": {
+        "eslint": "^8.14.0"
+    }
+}

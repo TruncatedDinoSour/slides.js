@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <script src="/src/index.js"></script>
+        <style>
+            * {
+                background-color: #262220;
+                color: #f9f6e8;
+                font-family: Hack, hack, monospace, sans, opensans, sans-serif;
+            }
+
+            button {
+                background-color: #f9f6e8;
+                color: #262220;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="slides">
+            <div>
+                <h1>Slide 1</h1>
+                <div>Content content content</div>
+            </div>
+            <div>
+                <h1>Slide 2</h1>
+                <div>Content content content</div>
+            </div>
+            <div>
+                <h1>Slide 3</h1>
+                <div>Content content content</div>
+            </div>
+            <div>
+                <h1>The end</h1>
+                <h2>Thanks for your attention</h2>
+            </div>
+        </div>
+
+        <button onclick="display_slide();">Redisplay slide</button>
+        <button onclick="display_next_slide();">Display next slide</button>
+        <button onclick="display_prev_slide();">Display previous slide</button>
+
+        <script>
+            init_slides("#slides");
+            display_slide();
+        </script>
+    </body>
+</html>

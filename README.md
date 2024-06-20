@@ -1,3 +1,4 @@
+# This repository has been migrated to the self-hosted ari-web Forgejo instance: <https://git.ari.lt/ari/slides.js>
 # Slides.js
 
 > A simple and small library for making slides on web front-end
